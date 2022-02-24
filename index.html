@@ -1,0 +1,162 @@
+<!doctype html>
+	<html dir="rtl" lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="البحث عن المعلومات " />
+		<meta property="og:description" content="يمكنكم البحث عن المعلومات والوثائق والشركات  " />
+		<meta property="og:image" content="https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/p180x540/243256435_180094877593908_4372607081231701407_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=ziJVkQPOreQAX-lx8B7&_nc_ht=scontent.fcai20-6.fna&oh=00_AT8UmvQlClVjmF74UEzAALkVkAYt5TWBupXQC8kO7mHOHw&oe=6201B5A0" />
+
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		 crossorigin="anonymous" />
+		<title>أداة البحث عن المعلومات</title>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<head>
+  <div class="container">
+			<div class="nav-container">
+				<nav>
+					<h3>
+						<a href="./index.html" class="logo"> أداة البحث عن المعلومات السرية 
+					</h3>
+          <ul>
+            <li><a href="https://open-source-handbook.github.io/Search-tools/index.html">الصفحة الرئيسية</a></li>
+            </ul>
+    
+				</nav>
+			</div>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<script type="text/javascript">
+function doPopAll(PopAll)
+{var pop = document.getElementById("PopAll");
+for (j = 1; j <= 100; j++){
+if (j < 10){
+j = "0" + j.toString();}
+else {j = j.toString();}
+console.log(j)
+item = document.getElementById("Search" + j);
+if (item != null){
+item.value = pop.value;}}}
+</script>
+<form onsubmit="doPopAll(this.PopAll.value); return false;">
+<input type="text" id="PopAll" name="PopAll" size="30" placeholder="أكتب مصطلح البحث"/>
+<input type="submit" style="width:140px" value="تعبئة الكل" /><br /></form><br>
+
+<script type="text/javascript">
+function doSearch01(Search01)
+{window.open('https://search.uscourts.gov/search?affiliate=uscourts_pacer&locale=en&query=' + Search01, 'Search01window');}
+</script>
+<form onsubmit="doSearch01(this.Search01.value); return false;">
+<input type="text" id="Search01" name="Search01" size="30" placeholder="أكتب مصطلح البحث"/>
+<input type="submit" style="width:180px" value="المعلومات الحكومية" /><br /></form>
+
+<script type="text/javascript">
+function doSearch02(Search02)
+{window.open('https://www.courtlistener.com/?type=r&q=' + Search02, 'Search02window');}
+</script>
+<form onsubmit="doSearch02(this.Search02.value); return false;">
+<input type="text" id="Search02" name="Search02" size="30" placeholder="أكتب مصطلح البحث"/>
+<input type="submit" style="width:180px" value="مشروع القانون الحر" /><br /></form>
+
+<script type="text/javascript">
+function doSearch03(Search03)
+{window.open('https://www.google.com/search?q=site:unicourt.com+' + Search03, 'Search03window');}
+</script>
+<form onsubmit="doSearch03(this.Search03.value); return false;">
+<input type="text" id="Search03" name="Search03" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:180px" value="المحاكم العليا" /><br /></form>
+
+<script type="text/javascript">
+function doSearch05(Search05)
+{window.open('https://search.foia.gov/search?affiliate=foia.gov&query=' + Search05, 'Search05window');}
+</script>
+<form onsubmit="doSearch05(this.Search05.value); return false;">
+<input type="text" id="Search05" name="Search05" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:180px" value="الحكومة المركزية" /><br /></form>
+
+<script type="text/javascript">
+function doSearch06(Search06)
+{window.open('https://opencorporates.com/officers?q=' + Search06, 'Search06window');}
+</script>
+<form onsubmit="doSearch06(this.Search06.value); return false;">
+<input type="text" id="Search06" name="Search06" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:180px" value="قاعدة بيانات الشركات" /><br /></form>
+
+<script type="text/javascript">
+function doSearch07(Search07)
+{window.open('https://www.aihitdata.com/search/companies?t=' + Search07, 'Search07window');}
+</script>
+<form onsubmit="doSearch07(this.Search07.value); return false;">
+<input type="text" id="Search07" name="Search07" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:190px" value="البحث الذكي عن الشركات" /><br /></form>
+
+<script type="text/javascript">
+function doSearch08(Search08)
+{window.open('https://openpayrolls.com/search/' + Search08, 'Search08window');}
+</script>
+<form onsubmit="doSearch08(this.Search08.value); return false;">
+<input type="text" id="Search08" name="Search08" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:180px" value="كشوف المرتبات" /><br /></form>
+
+<script type="text/javascript">
+function doSearch09(Search09)
+{window.open('https://bearsofficialsstore.com/search/?q=' + Search09, 'Search09window');}
+</script>
+<form onsubmit="doSearch09(this.Search09.value); return false;">
+<input type="text" id="Search09" name="Search09" size="30" placeholder="أكتب مطلح البحث" value="" />
+<input type="submit" style="width:180px" value="بيانات الموظفين" /><br /></form>
+
+<script type="text/javascript">
+function doSearch10(Search10)
+{window.open('https://littlesis.org/search?q=' + Search10, 'Search10window');}
+</script>
+<form onsubmit="doSearch10(this.Search10.value); return false;">
+<input type="text" id="Search10" name="Search10" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:190px" value="الفساد المالي والحكومي" /><br /></form>
+
+<script type="text/javascript">
+function doSearch11(Search11)
+{window.open('https://www.opensecrets.org/search?q=' + Search11, 'Search11window');}
+</script>
+<form onsubmit="doSearch11(this.Search11.value); return false;">
+<input type="text" id="Search11" name="Search11" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:180px" value="الوثائق السرية" /><br /></form>
+
+<script type="text/javascript">
+function doSearch12(Search12)
+{window.open('http://politicalmoneyline.com/tr/tr_MG_IndivDonor.aspx?sMP=1&sText=' + Search12 + '&sCycle=2020', 'Search12window');}
+</script>
+<form onsubmit="doSearch12(this.Search12.value); return false;">
+<input type="text" id="Search12" name="Search12" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:180px" value="تعقب الأموال" /><br /></form>
+
+<script type="text/javascript">
+function doSearch13(Search13)
+{window.open('https://voterrecords.com/voters/' + Search13, 'Search13window');}
+</script>
+<form onsubmit="doSearch13(this.Search13.value); return false;">
+<input type="text" id="Search13" name="Search13" size="30" placeholder="أكتب مصطلح البحث" value="" />
+<input type="submit" style="width:180px" value="سجلات الناخبين" /><br /></form><br />
+
+
+</td>
+</tr>
+</tbody>
+</table>
+
+	<footer>
+			<p>تصميم شحاته السيد</p>
+		</footer>
+		</div>
+	</body>
+
+	</html>
